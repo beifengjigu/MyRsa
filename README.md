@@ -18,3 +18,7 @@ this function generate keys and store them in two strings,if you want to user ra
 you can use encryption function to encrypt very long string,but encrypt struct data maybe case a unpredict erro,you will get false when you decrypt the output and a very low chance to get true result.
 the length in Decrypt function is set the output length,for example,
 you encrypt a string but you should get the string's length and put it in Decrypt funtion or you will get some strange chars after the true string
+### make
+you should add 
+-lssl -lm -lcrypto
+in your complie command
