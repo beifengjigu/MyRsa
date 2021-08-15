@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/beifeng/code/C++/MyRsa/example/RSATest/main.cpp
+myssl.h
+/home/beifeng/code/C++/MyRsa/example/RSATest/myssl.h
+iostream
+-
+string
+-
+cstring
+-
+
+/home/beifeng/code/C++/MyRsa/example/RSATest/myssl.h
+bits/stdc++.h
+-
+openssl/bn.h
+-
+openssl/pem.h
+-
+openssl/rsa.h
+-
+openssl/sha.h
+-
+

@@ -15,7 +15,7 @@ you can change the myssl's define to change the key files' path
 #### GenerateKey
 this function generate keys and store them in two strings,if you want to user random keys,this function is useful
 #### Encryption/Decrypt
-you can use encryption function to encrypt very long string,but encrypt struct data maybe case a unpredict erro,you will get false when you decrypt the output and a very low chance to get true result.
+you can use encryption function to encrypt very long string,if you want to encrypt struct data,you should read example code,this can help you.
 the length in Decrypt function is set the output length,for example,
 you encrypt a string but you should get the string's length and put it in Decrypt funtion or you will get some strange chars after the true string
 ### make

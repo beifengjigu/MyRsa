@@ -9,6 +9,12 @@
 
 #define PUBLICKEY "../keys/rsa_public_key.pem"
 #define PRIVATEKEY "../keys/rsa_private_key.pem"
+struct Msg_Data{
+    int beforelength;//this is use for store the plain data length
+    char msg[3600];//store encrypt data
+    int afterlength;//this is use for store the encrypt data length
+};
+
 class MySsl
 {
 private:
